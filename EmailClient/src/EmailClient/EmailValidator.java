@@ -4,6 +4,8 @@ import java.util.regex.Pattern;
 
 public class EmailValidator {
 		//The following method will check whether the String can be considered as a email address
+		//A simple validator (Not sure it can check all the posibilities for Validity)
+		//Refferenced from https://origin.geeksforgeeks.org/check-email-address-valid-not-java/?ref=lbp
 		public static boolean isValidEmail(String email){
 			
 			//Properties of design a valid mail address

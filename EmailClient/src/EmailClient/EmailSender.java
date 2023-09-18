@@ -9,8 +9,8 @@ import java.util.Scanner;
 
 public class EmailSender {
 	// -------------------------------------------------------------------------------------------------
-		private static final String username = "purposetmailtesting@gmail.com";
-		private static final String password = "lccspyiwyallazts";
+		private static final String username = //Add your email address as string;
+		private static final String password = //Add your password as string;
 		//Use app password for password and turn on two-step authentication.
 		
 		private static Properties prop = new Properties();
